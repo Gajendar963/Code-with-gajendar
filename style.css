@@ -1,3 +1,11 @@
+.logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffaa00;
+            text-decoration: bold;
+
+}
+/* Reset some default styles */
 .navbar{
   padding: 20px;
   text-align: center; 
@@ -55,9 +63,18 @@ body {
     top: 0;
   }
 }
-.animated-btn:hover {
+.button:hover {
   background-color: #0056b3;
 }
+.signup-btn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
 
 h1{
   color: white;
@@ -80,7 +97,7 @@ h3 {
 }
 
 .navbar {
-  background: #1e90ff;
+  background: #1e90ff; 
   color: white;
   padding: 1rem 2rem;
   display: flex;
@@ -167,7 +184,7 @@ h3 {
       color: white;
       font-family: Arial, sans-serif;
       margin: 20px auto;
-      background: #f9f9f9;
+      background:  #1a3a5d;
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
@@ -190,6 +207,7 @@ h3 {
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
       padding: 20px;
+      /* align-items: center; */
       
       cursor: pointer;
       
@@ -260,7 +278,7 @@ h3 {
     }
 
     .plan-card {
-      background-color: white;
+      background-color: #f4f4f4;
       border-radius: 16px;
       padding: 30px 20px;
       width: 280px;
@@ -355,9 +373,8 @@ body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: 
- rgba(0, 51, 102, 0.9) ;
+  background-color: #0f2a45;
+  color: rgba(0, 51, 102, 0.9);
 }
 
 .section-title {

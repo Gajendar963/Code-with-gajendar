@@ -25,6 +25,6 @@ document.getElementById("phone").addEventListener("click", () => {
 
 document.getElementById("whatsapp").addEventListener("click", () => {
   console.log("WhatsApp/Telegram link clicked");
-});
+}); hello
 
  
